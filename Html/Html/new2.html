@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+    <head>
+      <title>WebView</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,target-densitydpi=device-dpi, user-scalable=no">
+      <style type="text/css">
+      ::selection {
+      background-color: transparent;
+      }
+      
+      ::-moz-selection {
+      background-color: transparent;
+      }
+      
+      * {
+      -webkit-user-select: none;
+      -moz-user-select: -moz-none;
+      -ms-user-select: none; 
+      -webkit-tap-highlight-color: transparent;
+      font-family: DROID_MJRegular;
+      user-select: none;
+      }
+      
+      @font-face {
+      font-family: DROID_MJAlternatesMedium;
+      src: url("file:///android_asset/fonts/MontserratAlternatesMedium.ttf")
+      }
+      
+      @font-face {
+      font-family: DROID_MJRegular;
+      src: url("file:///android_asset/fonts/MontserratRegular.ttf")
+      }
+      
+      @font-face {
+      font-family: DROID_MJMedium;
+      src: url("file:///android_asset/fonts/MontserratMedium.ttf")
+      }
+
+      html, body {
+      background-color: #245a64;
+      }
+      
+      .d {
+      position: absolute;
+      font-family: DROID_MJAlternatesMedium;
+      color: #ffffff:
+      background-color: #245a64;
+      font-weight: 500;
+      font-size: 40px;
+      margin-top: 25%;
+      left: 26%;
+      }
+      
+      .a {
+      position: absolute;
+      left: 5%;
+      width: 87%;
+      height: 40px;
+      border-radius: 30px;
+      border-color: #ffffff;
+      border-style: solid;
+      border-width: 1px;
+      margin-top: 50%;
+      outline: none;
+      padding-left: 3%;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 15px;
+      background-color: #245a64;
+      font-family: DROID_MJMEDIUM;
+      }
+      
+      .e {
+      position: absolute;
+      margin-top: 52.5%;
+      right: 8%;
+      display: none;
+      }
+      
+      .h {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      color: transparent;
+      background-color: transparent;
+      }
+      </style>
+      <script type="text/javascript">
+      function g() {
+      document.getElementById("f").style.display = "block";
+      document.getElementById("c").onsubmit = function() { 
+      var search = "https://"
+      window.location = search + document.getElementById("b").value; 
+      return false; 
+      }
+      }
+      
+      function i() {
+      document.getElementById("f").style.display = "none";
+      }
+      </script>
+    </head>
+  <body>
+    <div class="h" onclick="i()"></div>
+    <article>
+      <strong>
+        <div class="d" onclick="i()">WebView</div>
+      </strong>
+    </article>
+    <form id="c" autocomplete="off" spellcheck="false" >
+      <input type="text" required="required" class="a" id="b" value="" onclick="g()" placeholder="">
+      <svg class="e" id="f" fill="#484848" opacity="1.0" width="22" height="24" viewBox="0 0 26 28">
+        <path d="M18 13c0-3.859-3.141-7-7-7s-7 3.141-7 7 3.141 7 7 7 7-3.141 7-7zm8 13c0 1.094-.906 2-2 2a1.96 1.96 0 0 1-1.406-.594l-5.359-5.344a10.971 10.971 0 0 1-6.234 1.937c-6.078 0-11-4.922-11-11s4.922-11 11-11 11 4.922 11 11c0 2.219-.672 4.406-1.937 6.234l5.359 5.359c.359.359.578.875.578 1.406z"/>
+      </svg>
+    </form>
+    <noscript>WebView cannot load due to JavaScript error</noscript>
+  </body>
+</html>

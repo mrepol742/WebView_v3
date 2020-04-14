@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>WebView</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,target-densitydpi=device-dpi, user-scalable=no">
+<style type="text/css">
+::selection {
+background-color: transparent;
+}
+
+::-moz-selection {
+background-color: transparent;
+}
+
+* {
+-webkit-user-select: none;
+-moz-user-select: -moz-none;
+-ms-user-select: none; 
+-webkit-tap-highlight-color: transparent;
+font-family: DROID_MJRegular;
+user-select: none;
+}
+
+@font-face {
+  font-family: MontserratAlternatesMedium;
+  src: url("file:///android_asset/fonts/MontserratAlternatesMedium.ttf")
+}
+
+@font-face {
+  font-family: MontserratRegular;
+ src: url("file:///android_asset/fonts/MontserratRegular.ttf")
+}
+
+@font-face {
+  font-family: MontserratMedium;
+  src: url("file:///android_asset/fonts/MontserratMedium.ttf")
+}
+
+.img1 {
+height: 60px;
+}
+
+.img {
+height: 35px;
+display: none;
+}
+
+.image2 {
+height: 35px;
+display: none;
+}
+
+body {
+background-image: url("p22.jpg");
+background-size: 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+.login {
+position: absolute;
+margin-top: 36.4%;
+left: 85.5%;
+outline: none;
+background-color: #ffffff;
+color: transparent;
+border-radius: 40px;
+padding: 0px;
+width: 11.5%;
+border-style: solid;
+border-color: #ffffff;
+display: none;
+height: 40px;
+min-height: 40px;
+min-width: 11.5%;
+}
+
+.login1 {
+position: absolute;
+margin-top: 50%;
+left: 42%;
+outline: none;
+background-color: #263238;
+color: transparent;
+border-radius: 40px;
+padding: 0px;
+width: 17%;
+border-style: solid;
+border-color: #263238;
+display: block;
+height: 12%;
+min-height: 13%
+min-width: 21.5%;
+}
+
+.search {
+position: absolute;
+left: 2%;
+height: 50px;
+margin-top: 35%;
+width: 80%;
+outline: none;
+background-color: #263238;
+border-style: solid;
+color: #bdbdbd;
+font-family: DROID_MJRegular;
+font-weight: 600;
+padding-left: 5%;
+border-color: #263238;
+border-width: 2px;
+border-top-right-radius: 0px;
+border-top-left-radius: 50px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 50px;
+display: none;
+}
+
+.image {
+position: absolute;
+left: 2%;
+height: 50px;
+margin-top: 45%;
+width: 80%;
+outline: none;
+background-color: #263238;
+border-style: solid;
+color: #bdbdbd;
+font-family: DROID_MJRegular;
+font-weight: 600;
+padding-left: 5%;
+border-color: #263238;
+border-width: 2px;
+border-top-right-radius: 0px;
+border-top-left-radius: 50px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 50px;
+display: none;
+}
+
+.image1 {
+position: absolute;
+margin-top: 46.4%;
+left: 85.5%;
+outline: none;
+background-color: #ffffff;
+color: transparent;
+border-radius: 40px;
+padding: 0px;
+width: 11.5%;
+border-style: solid;
+border-color: #ffffff;
+display: none;
+height: 40px;
+min-height: 40px;
+min-width: 11.5%;
+}
+
+.button {
+position: absolute;
+right: 2%;
+background-color: #263238;
+color: transparent;
+margin-top: 35%;
+width: 16%;
+border-top-right-radius: 50px;
+height: 50px;
+border-top-left-radius: 0px;
+display: none;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 0px;
+}
+
+.button1 {
+position: absolute;
+right: 2%;
+background-color: #263238;
+color: transparent;
+margin-top: 45%;
+width: 16%;
+border-top-right-radius: 50px;
+height: 50px;
+border-top-left-radius: 0px;
+display: none;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 0px;
+}
+
+::placeholder {
+text-transform: uppercase;
+font-family: DROID_MJMedium;
+font-weight: 600;
+font-size: 13px;
+color: #616161;
+padding-left: 0%;
+background-color: transparent;
+}
+
+.sensor {
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+background-color: transparent;
+color: transparent;
+}
+
+.dev {
+position: absolute;
+margin-top: 15%;
+font-size: 40px;
+left: 25%;
+color: #263238;
+font-family: DROID_MJAlternatesMedium;
+font-weight: 600;
+}
+
+.super {
+position: absolute;
+left: 15%;
+height: 7%;
+width: 20%;
+min-height: 7%;
+min-width: 20%;
+outline: none;
+border-radius: 30px;
+background-color: #263238;
+border-color: #263238;
+border-style: solid;
+margin-top: 90%;
+color: transparent;
+font-family: DROID_MJAlternatesMedium;
+font-size: 13px;
+display: block;
+font-weight: 400;
+}
+
+.duper {
+position: absolute;
+right: 15%;
+height: 7%;
+width: 20%;
+min-height: 7%;
+border-radius: 30px;
+color: transparent;
+min-width: 20%;
+display: block;
+border-color: #263238;
+outline: none;
+margin-top: 90%;
+background-color: #263238;
+border-style: solid;
+font-family: DROID_MJAlternatesMedium;
+font-size: 13px;
+font-weight: 400;
+}
+
+.cool {
+position: absolute;
+right: 40%;
+height: 7%;
+width: 20%;
+min-height: 7%;
+border-radius: 30px;
+color: transparent;
+min-width: 20%;
+border-color: #263238;
+color: #ffffff;
+display: block;
+outline: none;
+margin-top: 90%;
+background-color: #263238;
+font-family: DROID_MJAlternatesMedium;
+font-size: 13px;
+font-weight: 400;
+border-style: solid;
+}
+
+.cool1 {
+position: absolute;
+right: 40%;
+height: 7%;
+width: 20%;
+min-height: 7%;
+border-radius: 30px;
+color: transparent;
+min-width: 20%;
+border-color: #263238;
+color: #ffffff;
+display: none;
+outline: none;
+margin-top: 90%;
+background-color: #263238;
+font-family: DROID_MJAlternatesMedium;
+font-size: 13px;
+font-weight: 400;
+border-style: solid;
+}
+
+a {
+color: #ffffff;
+text-decoration: none;
+}
+
+a:link {
+color: #ffffff;
+}
+
+a:visited {
+color: #ffffff;
+}
+
+a:hover {
+color: #ffffff;
+}
+
+a:active {
+color: #ffffff;
+}
+
+.dev1 {
+position: absolute;
+left: 37%;
+font-size: 13px;
+font-weight: 400;
+text-transform: uppercase;
+color: #eeeeee;
+margin-top: 20%;
+display: none;
+}
+
+.nav1 {
+position: absolute;
+left: 20%;
+right: 20%;
+margin-top: 120%;
+}
+
+.nav2 {
+position: absolute;
+left: 10%;
+right: 10%;
+margin-top: 10%;
+margin-bottom: 1%;
+}
+
+.nav {
+position: absolute;
+left: 5%;
+right: 5%;
+background-color: #212121;
+color: transparent;
+height: 42.5%;
+margin-top: 115%;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+
+.a {
+background-color: #ffffff;
+color: #263238;
+border-style: solid;
+border-radius: 15px;
+border-color: #4285F4;
+background-color: #4285F4;
+border-width: 2px;
+border-width: 1px;
+height: 30px;
+outline: none;
+width: 40%;
+margin-left: 5%;
+margin-top: 0%;
+}
+
+.a:hover {
+background-color: #263238;
+outline: none;
+border-color: #bdbdbd;
+border-radius: 10px;
+filter: opacity(.4);
+}
+
+.a1 {
+background-color: #ffffff;
+color: #263238;
+border-style: solid;
+border-radius: 15px;
+border-color: #4285F4;
+background-color: #4285F4;
+border-width: 2px;
+border-width: 1px;
+height: 30px;
+outline: none;
+margin-top: 0%;
+width: 40%;
+margin-left: 10%;
+}
+
+.a1:hover {
+background-color: #263238;
+outline: none;
+border-color: #bdbdbd;
+border-radius: 10px;
+filter: opacity(.4);
+}
+
+.a2 {
+background-color: #ffffff;
+color: #263238;
+border-style: solid;
+border-radius: 15px;
+border-color: #4285F4;
+background-color: #4285F4;
+border-width: 2px;
+border-width: 1px;
+height: 30px;
+outline: none;
+margin-top: 3.5%;
+width: 40%;
+margin-left: 5%;
+}
+
+.a2:hover {
+background-color: #263238;
+outline: none;
+border-color: #bdbdbd;
+border-radius: 10px;
+filter: opacity(.4);
+}
+
+.a3 {
+background-color: #ffffff;
+color: #263238;
+border-style: solid;
+border-radius: 15px;
+border-color: #4285F4;
+background-color: #4285F4;
+border-width: 2px;
+border-width: 1px;
+height: 30px;
+outline: none;
+margin-top: 3.5%;
+width: 40%;
+margin-left: 10%;
+}
+
+.a3:hover {
+background-color: #263238;
+outline: none;
+border-color: #bdbdbd;
+border-radius: 10px;
+filter: opacity(.4);
+}
+
+.a4 {
+background-color: #ffffff;
+color: #263238;
+border-style: solid;
+border-radius: 15px;
+border-color: #4285F4;
+background-color: #4285F4;
+border-width: 2px;
+border-width: 1px;
+height: 30px;
+outline: none;
+margin-top: 3.5%;
+width: 40%;
+margin-left: 5%;
+}
+
+.a4:hover {
+background-color: #263238;
+outline: none;
+border-color: #bdbdbd;
+border-radius: 10px;
+filter: opacity(.4);
+}
+
+.a5 {
+background-color: #ffffff;
+color: #263238;
+border-style: solid;
+border-radius: 15px;
+border-color: #4285F4;
+background-color: #4285F4;
+border-width: 2px;
+border-width: 1px;
+height: 30px;
+outline: none;
+margin-top: 3.5%;
+width: 40%;
+margin-left: 10%;
+}
+
+.a5:hover {
+background-color: #263238;
+outline: none;
+border-color: #bdbdbd;
+border-radius: 10px;
+filter: opacity(.4);
+}
+
+.divider {
+position: absolute;
+background-color: #ffffff;
+color: transparent;
+width: 100%;
+height: 2px;
+margin-top: 7%;
+filter: opacity(0.4);
+}
+
+.b {
+background-color: #ffffff;
+color: #ffffff;
+border-style: solid;
+border-radius: 15px;
+border-color: #4285F4;
+background-color: #4285F4;
+border-width: 2px;
+border-width: 1px;
+height: 30px;
+outline: none;
+margin-top: 3.5%;
+width: 40%;
+margin-left: -40%;
+}
+
+.b1 {
+background-color: #ffffff;
+color: #ffffff;
+border-style: solid;
+border-radius: 15px;
+border-color: #4285F4;
+background-color: #4285F4;
+border-width: 2px;
+border-width: 1px;
+height: 30px;
+outline: none;
+margin-top: 3.5%;
+width: 40%;
+margin-left: -0%;
+}
+
+.b2 {
+background-color: #ffffff;
+color: #ffffff;
+border-style: solid;
+border-radius: 15px;
+border-color: #4285F4;
+background-color: #4285F4;
+border-width: 2px;
+border-width: 1px;
+height: 30px;
+outline: none;
+margin-top: 3.5%;
+width: 40%;
+margin-left: 0%;
+}
+
+.b3 {
+background-color: #ffffff;
+color: #ffffff;
+border-style: solid;
+border-radius: 15px;
+border-color: #4285F4;
+background-color: #4285F4;
+border-width: 2px;
+border-width: 1px;
+height: 30px;
+outline: none;
+margin-top: 3.5%;
+width: 40%;
+margin-left: 7%;
+}
+</style>
+<script type="text/javascript">
+function remove1() {
+document.getElementById("image").style.display = "none";
+document.getElementById("dev1").style.display = "none";
+document.getElementById("button1").style.display = "none";
+document.getElementById("cool").style.display = "block";
+document.getElementById("cool1").style.display = "none";
+document.getElementById("dev").style.marginTop = "10%";
+document.getElementById("image2").style.display = "none";
+document.getElementById("image1").style.display = "none";
+document.getElementById("img").style.display = "block";
+document.getElementById("button").style.display = "block";
+document.getElementById("login").style.display = "block";
+document.getElementById("login1").style.display = "none";
+document.getElementById("img1").style.display = "none";
+document.getElementById("search").style.display = "block";
+document.getElementById("form").onsubmit = function() { 
+var search = "https://"
+window.location = search + document.getElementById("search").value; 
+return false; 
+}
+}
+
+function normal() {
+document.getElementById("button1").style.display = "none";
+document.getElementById("image").style.display = "none";
+document.getElementById("dev1").style.display = "none";
+document.getElementById("cool").style.display = "block";
+document.getElementById("cool1").style.display = "none";
+document.getElementById("dev").style.marginTop = "15%";
+document.getElementById("search").style.display = "none";
+document.getElementById("button").style.display = "none";
+document.getElementById("login1").style.display = "block";
+document.getElementById("img1").style.display = "block";
+document.getElementById("login").style.display = "none";
+document.getElementById("img").style.display = "none";
+document.getElementById("search").value = "";
+document.getElementById("image").value = "";
+document.getElementById("image1").style.display = "none";
+document.getElementById("image2").style.display = "none";
+}
+
+function image() {
+document.getElementById("dev1").style.display = "block";
+document.getElementById("image").style.display = "block";
+document.getElementById("dev").style.marginTop = "10%";
+document.getElementById("search").style.display = "none";
+document.getElementById("button").style.display = "none";
+document.getElementById("login1").style.display = "none";
+document.getElementById("img1").style.display = "none";
+document.getElementById("login").style.display = "none";
+document.getElementById("cool1").style.display = "block";
+document.getElementById("button1").style.display = "block";
+document.getElementById("image1").style.display = "block";
+document.getElementById("image2").style.display = "block";
+document.getElementById("form2").onsubmit = function() { 
+var search2 = "https://"
+window.location = search2 + document.getElementById("image").value; 
+return false; 
+}
+}
+</script>
+</head>
+<body>
+<article class="sensor" onclick="normal()"></article>
+<article class="dev" id="dev">Webview</article>
+<article class="dev1" id="dev1">image search</article>
+<form autocomplete="off" spellcheck="false" autocapitalize="off" id="form">
+<input type="search" value="" placeholder="Search..." class="search" id="search" name="" autofocus="autofocus" required="required">
+<div class="button" id="button"></div>
+<button type="button" name="button" onclick="remove1()" class="login1" id="login1"><img onclick="remove1()" id="img1" class="img1" src="search.png"></button>
+<button type="submit" name="submition" onclick="remove()" class="login" id="login"><img onclick="remove()" id="img" class="img" src="search.png"></button>
+</form>
+<button class="super"><a href="#" >Sign Up</a></button>
+<button class="duper"><a href="#" >Log In</a></button>
+<button id="cool" onclick="image()" class="cool">Image</button>
+</body>
+<button id="cool1" onclick="normal()" class="cool1">Search</button>
+<form autocomplete="off" spellcheck="false" autocapitalize="off" id="form2">
+<input class="image" id="image" value="" placeholder="Image search..." autofocus="autofocus" required="required" name="" type="search">
+<div class="button1" id="button1"></div>
+<button type="submit" name="submition" onclick="remove()" class="image1" id="image1"><img onclick="remove()" id="image2" class="image2" src="search.png"></button>
+</form>
+<div class="nav"></div>
+<div class="nav1">
+<button class="a"><a href="https://facebook.com" >Facebook</a></button>
+<button class="a1"><a href="https://twitter.com" >Twitter</a></button>
+<button class="a2"><a href="https://google.com" >Google</a></button>
+<button class="a3"><a href="https://yahoo.com" >Yahoo!</a></button>
+<button class="a4"><a href="https://youtube.com" >YouTube</a></button>
+<button class="a5"><a href="https://freebasics.com" >Free Basics</a></button>
+<div class="divider"></div>
+<div class="nav2">
+<button class="b">Settings</button>
+<button class="b1">Terms</button>
+<button class="b2">Privacy</button>
+<button class="b3">About</button>
+</div>
+</html>
