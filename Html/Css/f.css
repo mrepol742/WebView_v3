@@ -1,0 +1,243 @@
+/*This css file belong to webview app build by DROID_MJ. Any copyright of this file are not autorized unless you have a license from the developer.You can get one by contacting me in facebook [https://m.me/mrepol742]*/
+/*You agree to not decompile or change anything without license from the developer*/
+@font-face {
+  font-family: MontserratAlternatesMedium;
+  src: url("file:///android_asset/fonts/MontserratAlternatesMedium.ttf")
+}
+
+@font-face {
+  font-family: MontserratRegular;
+ src: url("file:///android_asset/fonts/MontserratRegular.ttf")
+}
+
+@font-face {
+  font-family: MontserratMedium;
+  src: url("file:///android_asset/fonts/MontserratMedium.ttf")
+}
+
+*{
+font-family: MontserratRegular;
+}
+
+html, body {
+height: 100%;
+background-color: #E0E0E0;
+}
+
+a {
+  color: #4285F4;
+}
+
+a:link {
+  color: #4285F4;
+}
+
+a:visited {
+  color: #4285F4;
+}
+
+a:hover {
+  color: #4285F4;
+}
+
+a:active {
+  color: #4285F4;
+}
+
+.webview {
+position: absolute;
+top: 5px;
+left: 5px;
+background-color: #4285F4;
+line-height: 45px;
+margin-left: -5px;
+margin-top: -5px;
+font-size: 28px;
+width: 100%;
+}
+
+.logo {
+color: #FFFFFF;
+text-align: center;
+font-weight: 900;
+}
+
+.email {
+position: absolute;
+left: 15px;
+top: 13%;
+height: 40px;
+width: 91%;
+border: 1px solid #616161;
+font-weight: 600;
+border-radius: 3px;
+outline: none;
+color: #616161;
+}
+
+.password {
+position: absolute;
+left: 15px;
+top: 26.2%;
+font-weight: 600;
+height: 40px;
+width: 91%;
+border: 1px solid #616161;
+outline: none;
+border-radius: 3px;
+color: #616161;
+}
+
+.login {
+position: absolute;
+top: 38%;
+left: 15px;
+height: 8%;
+width: 91%;
+font-size: 18px;
+background-color: #4285F4;
+color: #FFFFFF;
+font-weight: 600;
+border: 2px solid #4285F4;
+border-radius: 3px;
+outline: none;
+}
+
+.login:hover {
+background-color: #212121;
+outline: none;
+border: 2px solid #212121;
+}
+
+.or {
+position: absolute;
+left: 48%;
+top: 48%;
+}
+.line1 {
+position: absolute;
+left: 15px;
+top: 49.4%;
+background-color: #303030;
+color: transparent;
+line-height: 2px;
+width: 40%;
+}
+
+.line2 {
+position: absolute;
+right: 15px;
+top: 49.4%;
+background-color: #303030;
+color: transparent;
+line-height: 2px;
+width: 40%;
+}
+
+.cre2 {
+position: absolute;
+font-weight: 500;
+top: 53%;
+right: 25%;
+background-color: #0f9d58;
+color: #FFFFFF;
+font-size: 18px;
+width: 48%;
+border-radius: 3px;
+border: 1px solid #757575;
+line-height: 45px;
+outline: none;
+}
+
+.cre2:hover {
+background-color: #212121;
+outline: none;
+border: 1px solid #212121;
+}
+
+.too {
+position: absolute;
+left: 25%;
+top: 64%;
+font-weight: 300;
+font-size: 14px;
+color: #616161;
+}
+
+.ba {
+position: absolute;
+left: -4px;
+right: -4px;
+top: 80%;
+background-color: #FFFFFF;
+color: transparent;
+line-height: 150px;
+width: 101%;
+}
+
+.la1 {
+position: absolute;
+left: 54px;
+top: 83%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.la2 {
+position: absolute;
+left: 54px;
+top: 87%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.la3 {
+position: absolute;
+left: 54px;
+top: 90.4%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.la4 {
+position: absolute;
+left: 64%;
+top: 83%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.la5 {
+position: absolute;
+left: 64%;
+top: 87%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.we {
+position: absolute;
+left: 38%;
+top: 99%;
+font-size: 12px;
+font-weight: 600;
+color: #616161;
+}
+
+.pl {
+position: absolute;
+left: 65%;
+top: 90.4%;
+font-size: 18px;
+font-weight: 600;
+color: #616161;
+border: 1px solid #616161;
+border-radius: 3px;
+text-align: center;
+width: 15px;
+}

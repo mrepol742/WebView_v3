@@ -1,0 +1,408 @@
+/*This css file belong to webview app build by DROID_MJ. Any copyright of this file are not autorized unless you have a license from the developer.You can get one by contacting me in facebook [https://m.me/mrepol742]*/
+/*You agree to not decompile or change anything without license from the developer*/
+@font-face {
+  font-family: MontserratAlternatesMedium;
+  src: url("file:///android_asset/fonts/MontserratAlternatesMedium.ttf")
+}
+
+@font-face {
+  font-family: MontserratRegular;
+ src: url("file:///android_asset/fonts/MontserratRegular.ttf")
+}
+
+@font-face {
+  font-family: MontserratMedium;
+  src: url("file:///android_asset/fonts/MontserratMedium.ttf")
+}
+
+*{
+font-family: MontserratRegular;
+}
+
+html, body {
+height: 100%;
+}
+
+.head {
+position: absolute;
+left: 30px;
+top: 40px;
+font-size: 23px;
+font-weight: 600;
+}
+
+.well {
+position: absolute;
+left: 30px;
+top: 30%;
+font-size: 18px;
+font-weight: 500;
+}
+
+.well1 {
+position: absolute;
+margin: 24px;
+font-size: 18px;
+font-weight: 500;
+top: 36%;
+line-height: 25px;
+}
+
+.line {
+position: absolute;
+color: transparent;
+background-color: #4285F4;
+left: 15px;
+right: 15px;
+top: 75%;
+line-height: 35px;
+}
+
+.line1 {
+position: absolute;
+color: transparent;
+background-color: #BDBDBD;
+left: 15px;
+right: 15px;
+top: 74.7%;
+line-height: 3px;
+}
+
+.fi {
+position: absolute;
+color: #4285F4;
+left: 30px;
+top: 90%;
+font-size: 25px;
+}
+
+.fia {
+position: absolute;
+color: #212121;
+font-size: 15px;
+top: 100%;
+line-height: 20px;
+margin: 30px;
+}
+
+.line2 {
+position: absolute;
+color: transparent;
+background-color: #db4437;
+left: 15px;
+right: 15px;
+top: 130%;
+line-height: 35px;
+}
+
+.in {
+position: absolute;
+margin: 30px;
+top: 135%;
+line-height: 35px;
+}
+
+.line3 {
+position: absolute;
+color: transparent;
+background-color: #f4b400;
+left: 15px;
+right: 15px;
+top: 157%;
+line-height: 35px;
+}
+
+.fi1 {
+position: absolute;
+color: #f4b400;
+left: 30px;
+top: 170%;
+font-size: 25px;
+}
+
+.line33 {
+position: absolute;
+color: transparent;
+background-color: #f4b400;
+left: 30px;
+top: 187%;
+line-height: 55px;
+width: 5px;
+}
+
+.fia1 {
+position: absolute;
+margin: 30px;
+line-height: 28px;
+top: 180%;
+}
+
+.line4 {
+position: absolute;
+color: transparent;
+background-color: #0f9d58;
+left: 15px;
+right: 15px;
+top: 232%;
+line-height: 35px;
+}
+
+.fi2 {
+position: absolute;
+color: #0f9d58;
+left: 30px;
+top: 245%;
+font-size: 25px;
+}
+
+.fia2 {
+position: absolute;
+margin: 30px;
+line-height: 28px;
+top: 257%;
+}
+
+.line44 {
+position: absolute;
+color: transparent;
+background-color: #0f9d58;
+left: 30px;
+top: 264%;
+line-height: 55px;
+width: 5px;
+}
+
+.fia3 {
+position: absolute;
+margin: 30px;
+line-height: 28px;
+top: 320%;
+}
+
+.line444 {
+position: absolute;
+color: transparent;
+background-color: #0f9d58;
+left: 30px;
+top: 327%;
+line-height: 55px;
+width: 5px;
+}
+
+.fia4 {
+position: absolute;
+margin: 30px;
+line-height: 28px;
+top: 360%;
+}
+
+.line4444 {
+position: absolute;
+color: transparent;
+background-color: #0f9d58;
+left: 30px;
+top: 367%;
+line-height: 55px;
+width: 5px;
+}
+
+.fia5 {
+position: absolute;
+margin: 30px;
+line-height: 28px;
+top: 400%;
+}
+
+.line44444 {
+position: absolute;
+color: transparent;
+background-color: #0f9d58;
+left: 30px;
+top: 407%;
+line-height: 55px;
+width: 5px;
+}
+
+.line5 {
+background-color: #E91E63;
+position: absolute;
+color: transparent;
+left: 15px;
+line-height: 35px;
+right: 15px;
+top: 425%;
+}
+
+.fi3 {
+position: absolute;
+color: #E91E63;
+left: 30px;
+top: 437%;
+font-size: 25px;
+}
+
+.wsk {
+position: absolute;
+margin: 30px;
+line-height: 28px;
+top: 443%;
+}
+
+.wsk1 {
+position: absolute;
+color: transparent;
+background-color: #E91E63;
+left: 30px;
+top: 450%;
+line-height: 55px;
+width: 5px;
+}
+
+.edk1 {
+background-color: #607D8B;
+position: absolute;
+color: transparent;
+left: 15px;
+line-height: 35px;
+right: 15px;
+top: 470%;
+}
+
+.edk {
+position: absolute;
+color: #607D8B;
+left: 30px;
+top: 482%;
+font-size: 25px;
+}
+
+.edk2 {
+position: absolute;
+margin: 30px;
+line-height: 28px;
+top: 490%;
+}
+
+.edk3 {
+position: absolute;
+color: transparent;
+background-color: #607D8B;
+left: 30px;
+top: 497%;
+line-height: 55px;
+width: 5px;
+}
+
+.yhd1 {
+background-color: #FF5722;
+position: absolute;
+color: transparent;
+left: 15px;
+line-height: 35px;
+right: 15px;
+top: 525%;
+}
+
+.yhd {
+position: absolute;
+color: #FF5722;
+left: 30px;
+top: 537%;
+font-size: 25px;
+}
+
+.yhd2 {
+position: absolute;
+margin: 30px;
+line-height: 28px;
+top: 544%;
+}
+
+.abc1 {
+background-color: #009688;
+position: absolute;
+color: transparent;
+left: 15px;
+line-height: 35px;
+right: 15px;
+top: 565%;
+}
+
+.abc {
+position: absolute;
+color: #009688;
+left: 30px;
+top: 578%;
+font-size: 25px;
+}
+
+.yhd3 {
+position: absolute;
+color: transparent;
+background-color: #FF5722;
+left: 30px;
+top: 551%;
+line-height: 55px;
+width: 5px;
+}
+
+.abc2 {
+position: absolute;
+margin: 30px;
+line-height: 28px;
+top: 585%;
+}
+
+.abc3 {
+position: absolute;
+color: transparent;
+background-color: #009688;
+left: 30px;
+top: 592%;
+line-height: 55px;
+width: 5px;
+}
+
+.new {
+background-color: #00BCD4;
+position: absolute;
+color: transparent;
+left: 15px;
+line-height: 35px;
+right: 15px;
+top: 610%;
+}
+
+.new1 {
+position: absolute;
+color: #00BCD4;
+left: 30px;
+top: 622%;
+font-size: 25px;
+}
+
+.new2 {
+position: absolute;
+margin: 30px;
+line-height: 28px;
+top: 629%;
+}
+
+.new3 {
+position: absolute;
+color: transparent;
+background-color: #00BCD4;
+left: 30px;
+top: 636%;
+line-height: 55px;
+width: 5px;
+}
+
+.last {
+position: absolute;
+left: 30px;
+font-size: 15px;
+font-weight: 500;
+top: 727%;
+padding-bottom: 20%;
+}

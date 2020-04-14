@@ -1,0 +1,197 @@
+/*This css file belong to webview app build by DROID_MJ. Any copyright of this file are not autorized unless you have a license from the developer.You can get one by contacting me in facebook [https://m.me/mrepol742]*/
+/*You agree to not decompile or change anything without license from the developer*/
+@font-face {
+  font-family: MontserratAlternatesMedium;
+  src: url("file:///android_asset/fonts/MontserratAlternatesMedium.ttf")
+}
+
+@font-face {
+  font-family: MontserratRegular;
+ src: url("file:///android_asset/fonts/MontserratRegular.ttf")
+}
+
+@font-face {
+  font-family: MontserratMedium;
+  src: url("file:///android_asset/fonts/MontserratMedium.ttf")
+}
+
+*{
+font-family: MontserratRegular;
+}
+
+html, body {
+height: 100%;
+}
+
+.g10 {
+  font-family: MontserratAlternatesMedium;
+  color: #4285F4;
+}
+
+.g11 {
+  font-family: MontserratAlternatesMedium;
+  color: #DB4437;
+}
+
+.g4 {
+  font-family: MontserratAlternatesMedium;
+  color: #F4B400;
+}
+
+.g5 {
+  font-family: MontserratAlternatesMedium;
+  color: #0F9D58;
+}
+
+.g6 {
+  font-family: MontserratAlternatesMedium;
+  color: #DB4437;
+}
+
+.g7 {
+  font-family: MontserratAlternatesMedium;
+  color: #4285F4;
+}
+
+.g8 {
+  font-family: MontserratAlternatesMedium;
+  color: #F4B400;
+}
+
+.g9 {
+  position: absolute;
+  top: 15px;
+  left: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  font-size: 25px;
+}
+
+.mid {
+position: absolute;
+margin: 30px;
+text-align: center;
+top: 20%;
+font-size: 35px;
+}
+
+.line {
+position: absolute;
+color: transparent;
+background-color: #303030;
+left: 15px;
+height: 2px;
+top: 28.2px;
+width: 29%;
+}
+
+.dev {
+position: absolute;
+left: 32%;
+font-weight: 600;
+font-size: 30px;
+top: 100%;
+color: #4285F4;
+}
+
+.dr {
+position: absolute;
+margin: 30px;
+top: 107%;
+font-size: 25px;
+font-weight: 300;
+}
+
+.line1 {
+position: absolute;
+background-color: #303030;
+color: transparent;
+right: 15px;
+top: 28.2px;
+height: 2px;
+width: 30%;
+}
+
+.new {
+position: absolute;
+margin: 30px;
+line-height: 25px;
+top: 127%;
+}
+
+.line2 {
+position: absolute;
+color: transparent;
+background-color: #4285F4;
+left: 15px;
+right: 15px;
+top: 90%;
+line-height: 35px;
+}
+
+.re {
+position: absolute;
+color: transparent;
+background-color: #4285F4;
+left: 30px;
+top: 113.6%;
+line-height: 55px;
+width: 5px;
+}
+
+.re1 {
+position: absolute;
+color: transparent;
+background-color: #428;
+left: 28px;
+top: 113.6%;
+line-height: 55px;
+width: 2px;
+}
+
+.re2 {
+position: absolute;
+color: transparent;
+background-color: #4285F4;
+left: 30px;
+top: 134%;
+line-height: 55px;
+width: 5px;
+}
+
+.new1 {
+position: absolute;
+margin: 30px;
+line-height: 24px;
+top: 158%;
+}
+
+.new2 {
+position: absolute;
+color: transparent;
+background-color: #4285F4;
+left: 30px;
+top: 165%;
+line-height: 55px;
+width: 5px;
+}
+
+.ab {
+position: absolute;
+color: transparent;
+background-color: #db4437;
+left: 15px;
+right: 15px;
+top: 185%;
+line-height: 35px;
+}
+
+.and {
+position: absolute;
+left: 20%;
+font-weight: 600;
+font-size: 30px;
+top: 195%;
+color: #db4437;
+}

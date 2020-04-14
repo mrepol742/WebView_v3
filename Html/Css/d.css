@@ -1,0 +1,326 @@
+/*This css file belong to webview app build by DROID_MJ. Any copyright of this file are not autorized unless you have a license from the developer.You can get one by contacting me in facebook [https://m.me/mrepol742]*/
+/*You agree to not decompile or change anything without license from the developer*/
+@font-face {
+  font-family: MontserratAlternatesMedium;
+  src: url("file:///android_asset/fonts/MontserratAlternatesMedium.ttf")
+}
+
+@font-face {
+  font-family: MontserratRegular;
+ src: url("file:///android_asset/fonts/MontserratRegular.ttf")
+}
+
+@font-face {
+  font-family: MontserratMedium;
+  src: url("file:///android_asset/fonts/MontserratMedium.ttf")
+}
+
+*{
+font-family: MontserratRegular;
+}
+
+html, body {
+background-color: #E0E0E0;
+height: 100%;
+}
+
+.webview {
+position: absolute;
+top: 5px;
+left: 5px;
+background-color: #4285F4;
+line-height: 40px;
+margin-left: -5px;
+margin-top: -5px;
+font-size: 20px;
+width: 100%;
+}
+
+.logo {
+color: #FFFFFF;
+text-align: center;
+font-size: 30px;
+font-weight: 900;
+}
+
+.si {
+position: absolute;
+text-align: center;
+left: 0;
+right: 0;
+background-color: #FFFFFF;
+font-size: 20px;
+height: 29px;
+}
+
+.poe {
+position: absolute;
+left: 20px;
+font-weight: 600;
+color: #616161;
+top: 13%;
+}
+
+.email {
+position: absolute;
+left: 20px;
+top: 16%;
+height: 35px;
+width: 89%;
+border: 1px solid #616161;
+border-radius: 2px;
+outline: none;
+}
+
+.pas{
+position: absolute;
+color: #616161;
+font-weight: 600;
+left: 20px;
+top: 26%;
+}
+
+.password {
+position: absolute;
+left: 20px;
+top: 29%;
+height: 35px;
+border: 1px solid #616161;
+border-radius: 2px;
+outline: none;
+width: 89%;
+}
+
+.pho{
+position: absolute;
+color: #616161;
+font-weight: 600;
+left: 20px;
+top: 38%;
+}
+
+.phone {
+position: absolute;
+left: 20px;
+top: 41%;
+height: 35px;
+border: 1px solid #616161;
+border-radius: 2px;
+outline: none;
+width: 89%;
+}
+
+.gen {
+position: absolute;
+color: #616161;
+font-weight: 600;
+left: 20px;
+top: 50%;
+}
+
+.male {
+position: absolute;
+left: 20px;
+top: 54%;
+height: 20px;
+}
+
+.male1 {
+position: absolute;
+left: 14%;
+top: 55%;
+height: 20px;
+}
+
+.girl {
+position: absolute;
+left: 40%;
+top: 54%;
+height: 20px;
+}
+
+.girl1 {
+position: absolute;
+left: 48%;
+top: 55%;
+height: 20px;
+}
+
+.bir {
+position: absolute;
+color: #616161;
+font-weight: 600;
+left: 20px;
+top: 61%;
+}
+
+.birthday {
+position: absolute;
+left: 20px;
+top: 65%;
+background-color: #FFFFFF;
+border: 1px solid #616161;
+border-radius: 2px;
+outline: none;
+width: 40%;
+}
+
+.nep {
+position: absolute;
+color: #616161;
+font-weight: 600;
+left: 20px;
+top: 71%;
+}
+
+.new {
+position: absolute;
+left: 20px;
+top: 75%;
+height: 35px;
+border: 1px solid #616161;
+border-radius: 2px;
+width: 89%;
+outline: none;
+}
+
+a {
+  color: #4285F4;
+}
+
+a:link {
+  color: #4285F4;
+}
+
+a:visited {
+  color: #4285F4;
+}
+
+a:hover {
+  color: #4285F4;
+}
+
+a:active {
+  color: #4285F4;
+}
+
+.textV {
+position: absolute;
+padding-left: 20px;
+padding-right: 20px;
+top: 85%;
+font-size: 13px;
+font-weight: 500;
+}
+
+.textV1 {
+position: absolute;
+padding-left: 20px;
+padding-right: 20px;
+font-weight: 500;
+top: 95%;
+font-size: 13px;
+}
+
+.sub {
+position: absolute;
+left: 25%;
+width: 50%;
+height: 30px;
+background-color: #4285F4;
+color: #FFFFFF;
+top: 105%;
+border: 1px solid #4285F4;
+border-radius: 2px;
+}
+
+.sub:hover {
+background-color: #212121;
+outline: none;
+border: 1px solid #212121;
+}
+
+.too {
+position: absolute;
+text-align: center;
+top: 115%;
+font-weight: 500;
+left: 25%;
+}
+
+.ba {
+position: absolute;
+left: -4px;
+right: -4px;
+top: 120%;
+background-color: #212121;
+color: transparent;
+line-height: 110px;
+width: 101%;
+}
+
+.la1 {
+position: absolute;
+left: 10px;
+top: 122%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.la2 {
+position: absolute;
+left: 10px;
+top: 125%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.la3 {
+position: absolute;
+left: 10px;
+top: 128%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.la4 {
+position: absolute;
+left: 48%;
+top: 122%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.la5 {
+position: absolute;
+left: 48%;
+top: 125%;
+font-size: 13px;
+font-weight: 600;
+color: #616161;
+}
+
+.pl {
+position: absolute;
+left: 48%;
+top: 128%;
+font-size: 18px;
+font-weight: 600;
+color: #616161;
+border: 1px solid #616161;
+text-align: center;
+width: 15px;
+}
+
+.we {
+position: absolute;
+left: 10px;
+top: 134%;
+font-size: 12px;
+font-weight: 600;
+color: #FFFFFF;
+}

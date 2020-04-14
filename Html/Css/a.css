@@ -1,0 +1,234 @@
+/*This css file belong to webview app build by DROID_MJ. Any copyright of this file are not autorized unless you have a license from the developer.You can get one by contacting me in facebook [https://m.me/mrepol742]*/
+/*You agree to not decompile or change anything without license from the developer*/
+@font-face {
+  font-family: MontserratAlternatesMedium;
+  src: url("file:///android_asset/fonts/MontserratAlternatesMedium.ttf")
+}
+
+@font-face {
+  font-family: MontserratRegular;
+ src: url("file:///android_asset/fonts/MontserratRegular.ttf")
+}
+
+@font-face {
+  font-family: MontserratMedium;
+  src: url("file:///android_asset/fonts/MontserratMedium.ttf")
+}
+
+*{
+font-family: MontserratRegular;
+}
+
+html, body {
+height: 100%;
+}
+
+a {
+  color: #303030;
+}
+
+a:link {
+  color: #303030;
+}
+
+a:visited {
+  color: #303030;
+}
+
+a:hover {
+  color: #DB4437;
+}
+
+a:active {
+  color: #F4B400;
+}
+
+.all {
+position: absolute;
+left: 20px;
+top: 15px;
+font-size: 13px;
+font-weight: 700;
+font-family: sans-serif-medium;
+}
+
+.under1 {
+position: absolute;
+left: 15%;
+top: 9%;
+background-color: #4285F4;
+color: transparent;
+line-height: 2.5px;
+width: 15%;
+}
+
+.images1 {
+position: absolute;
+right: 30%;
+font-size: 13px;
+font-weight: 600;
+color: #9E9E9E;
+top: 26%;
+}
+
+.image {
+position: absolute;
+left: 60px;
+top: 15px;
+font-size: 13px;
+font-family: sans-serif-medium;
+font-weight: 700;
+}
+
+.signin {
+position: absolute;
+right: 20px;
+top: 15px;
+font-size: 13px;
+font-weight: 700;
+font-family: sans-serif-medium;
+background-color: transparent;
+border: 1px solid #303030;
+border-radius: 3px;
+outline: none;
+height: 27px;
+}
+
+.g10 {
+  font-family: MontserratAlternatesMedium;
+  color: #4285F4;
+}
+
+.g11 {
+  font-family: MontserratAlternatesMedium;
+  color: #DB4437;
+}
+
+.g4 {
+  font-family: MontserratAlternatesMedium;
+  color: #F4B400;
+}
+
+.g5 {
+  font-family: MontserratAlternatesMedium;
+  color: #0F9D58;
+}
+
+.g6 {
+  font-family: MontserratAlternatesMedium;
+  color: #DB4437;
+}
+
+.g7 {
+  font-family: MontserratAlternatesMedium;
+  color: #4285F4;
+}
+
+.g8 {
+  font-family: MontserratAlternatesMedium;
+  color: #F4B400;
+}
+
+.g9 {
+  position: center;
+  padding-top: 36%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+}
+
+.under {
+position: absolute;
+left: 11px;
+top: 9%;
+background-color: #4285F4;
+color: transparent;
+line-height: 2.5px;
+width: 11%;
+}
+
+.search {
+position: absolute;
+left: 10px;
+top: 40%;
+width: 83.5%;
+height: 35px;
+background-color: #FFFFFF;
+border-bottom-left-radius: 7px;
+border-bottom-right-radius: 0px;
+border-top-left-radius: 7px;
+border-top-right-radius: 0px;
+border: 1px solid #9E9E9E;
+text-transform: lowercase;
+color: #616161;
+outline: none;
+}
+
+.search1 {
+position: absolute;
+right: 10px;
+top: 40%;
+height: 35px;
+width: 11%;
+border-top-right-radius: 7px;
+border-bottom-right-radius: 7px;
+background-color: #4285F4;
+border: 1px solid #4285F4;
+outline: none;
+color: #FFFFFF;
+text-align: center;
+cursor: pointer;
+}
+
+.coun {
+position: absolute;
+left: -4px;
+right: -4px;
+top: 80%;
+background-color: #EEEEEE;
+color: transparent;
+line-height: 140px;
+width: 101%;
+}
+
+.line1 {
+position: absolute;
+left: -1px;
+top: 88%;
+background-color: #BDBDBD;
+color: transparent;
+line-height: 2px;
+width: 100%;
+}
+
+.country {
+position: absolute;
+left: 15px;
+top: 83%;
+color: #616161;
+}
+
+.settings {
+position: absolute;
+left: 20%;
+top: 91%;
+}
+
+.privacy {
+position: absolute;
+left: 20%;
+top: 96%;
+}
+
+.terms {
+position: absolute;
+right: 20%;
+top: 91%;
+}
+
+.about {
+position: absolute;
+right: 20%;
+top: 96%;
+}
