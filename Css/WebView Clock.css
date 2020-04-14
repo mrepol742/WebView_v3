@@ -1,0 +1,31 @@
+/*This html file belong to webview app build by DROID_MJ. Any copyright of this file are not autorized unless you have a license from the developer.You can get one by contacting me in facebook [https://m.me/mrepol742]*/
+/*You agree to not decompile or change anything without license from the developer*/
+
+body {
+  font-family: MontserratAlternatesMedium;
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+  padding-left: auto;
+  padding-right: auto;
+  font-size: medium;
+  overflow: visible;
+  text-align: justify;
+}
+
+#clock {
+  margin-top: 180px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: MontserratAlternatesMedium;
+  src: url("file:///android_asset/fonts/MontserratAlternatesMedium.ttf")
+}
+
+#time {
+  font-weight: 300;
+  font-size: 90px;
+}

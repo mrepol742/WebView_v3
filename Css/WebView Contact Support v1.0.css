@@ -1,0 +1,115 @@
+body {
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+  padding-left: auto;
+  padding-right: auto;
+  font-size: medium;
+  overflow: visible;
+  text-align: justify;
+}
+
+@font-face {
+  font-family: MontserratAlternatesMedium;
+  src: url("file:///android_asset/fonts/MontserratAlternatesMedium.ttf")
+}
+
+@font-face {
+  font-family: MontserratMedium;
+  src: url("file:///android_asset/fonts/MontserratMedium.ttf")
+}
+
+* {
+  font-family: MontserratAlternatesMedium;
+}
+
+.f2 {
+  outline:0;
+  margin-left:20px;
+  width:300px;
+  height: 25px;
+  border-bottom-color: #3030300;
+  border-top-color:transparent;
+  border-left-color:transparent;
+  border-right-color:transparent;
+  overflow: visible;
+  cursor: pointer;
+  font-family: MontserratMedium;
+  font-size:17px;
+  padding-top: 50px;
+}
+
+input:-webkit-autofill {
+  outline:0;
+  margin-left:20px;
+  width:300px;
+  height: 25px;
+  border-bottom-color: #3030300;
+  border-top-color:transparent;
+  border-left-color:transparent;
+  border-right-color:transparent;
+  overflow: visible;
+  cursor: pointer;
+  font-family: MontserratMedium;
+  font-size:17px;
+  padding-top: 50px;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+}
+
+.f3 {
+  position: absolute;
+  font-size: 17px;
+  border: 1px solid #4285F4;
+  border-radius: 5px;
+  outline: none;
+  background-color: #4285F4;
+  width: 70px;
+  height: 30px;
+  font-family: MontserratMedium;
+  bottom: 8px;
+  right: 16px;
+}
+
+button {
+  color: #FFFFFF;
+}
+
+button:link {
+  color: #FFFFFF;
+}
+
+button:visited {
+  color: #FFFFFF;
+}
+
+button:hover {
+  color: #FFFFFF;
+}
+
+button:active {
+  color: #FFFFFF;
+}
+
+.f4 {
+  position: absolute;
+  font-size: 17px;
+  border: 1px solid #DB4437;
+  border-radius: 5px;
+  outline: none;
+  background-color: #DB4437;
+  width: 70px;
+  height: 30px;
+  font-family: MontserratMedium;
+  bottom: 8px;
+  left: 16px;
+}
+
+.f1 {
+  font-size: 23px;
+  padding-left: 21px;
+  padding-top: 12px;
+  font-weight: 500;
+  color: #3030300;
+}

@@ -1,0 +1,259 @@
+/*This css file belong to webview app build by DROID_MJ. Any copyright of this file are not autorized unless you have a license from the developer.You can get one by contacting me in facebook [https://m.me/mrepol742]*/
+/*You agree to not decompile or change anything without license from the developer*/
+.i2{
+  font-family: MontserratAlternatesMedium;
+  color: #4285F4;
+}
+
+*{
+  font-family: MontserratAlternatesMedium;
+}
+
+.i3 {
+  font-family: MontserratAlternatesMedium;
+  color: #DB4437;
+}
+
+.i4 {
+  font-family: MontserratAlternatesMedium;
+  color: #F4B400;
+}
+
+.i5 {
+  font-family: MontserratAlternatesMedium;
+  color: #0F9D58;
+}
+
+@font-face {
+  font-family: MontserratAlternatesMedium;
+  src: url("file:///android_asset/fonts/MontserratAlternatesMedium.ttf")
+}
+
+@font-face {
+  font-family: MontserratMedium;
+  src: url("file:///android_asset/fonts/MontserratMedium.ttf")
+}
+
+@font-face {
+  font-family: MontserratRegular;
+  src: url("file:///android_asset/fonts/MontserratRegular.ttf")
+}
+
+body {
+line-height: 1.5;
+font-size: 15px;
+margin: 15px;
+}
+
+.i6 {
+  font-family: MontserratAlternatesMedium;
+  color: #DB4437;
+}
+
+.i7 {
+  font-family: MontserratAlternatesMedium;
+  color: #4285F4;
+}
+
+.i8 {
+  font-family: MontserratAlternatesMedium;
+  color: #F4B400;
+}
+
+.i1 {
+  position: center;
+  padding-top: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 44px;
+}
+
+.i9 {
+  position: center;
+  padding-top: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  font-weight: 250;
+}
+
+.i10 {
+  position: center;
+  padding-top: 8px;
+  text-align: center;
+  margin-left: auto;
+  font-family: MontserratMedium;
+  margin-right: auto;
+  font-size: 15px;
+  font-weight: 280;
+}
+
+.i11 {
+position: center;
+padding-top: 8px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+  font-family: MontserratMedium;
+font-size: 15px;
+font-weight: 280;
+}
+
+.i12 {
+position: center;
+padding-top: 8px;
+text-align: center;
+margin-left: auto;
+  font-family: MontserratMedium;
+margin-right: auto;
+font-size: 16px;
+font-weight: 300;
+padding-bottom: 10px;
+}
+
+.i13 {
+padding: 1em;
+margin-left: auto;
+background: #4285F4;;
+border-radius: 10px;
+white-space: pre-wrap;
+  font-family: MontserratRegular;
+margin-right: auto;
+color: #F6F6F6;
+font-size: 17px;
+font-weight: 350;
+}
+
+.i14 {
+  text-align: left;
+  font-weight: 500;
+  background: #0F9D58;
+  border-radius: 10px;
+  font-size: 17px;
+  padding: 20px;
+}
+
+.i15 {
+text-align: center;
+font-size: 18px;
+font-weight: 350;
+}
+
+.i16 {
+text-align: center;
+font-size: 17px;
+color: #F6F6F6;
+padding: 10px;
+background: #4285F4;
+border-radius: 8px;
+}
+
+.i17 {
+text-align: center;
+font-size: 15px;
+color: #FFFFFF;
+padding: 10px;
+background: #0F9D58;
+  font-family: MontserratMedium;
+border-radius: 20px;
+}
+
+.i18 {
+text-align: center;
+font-size: 15px;
+color: #FFFFFF;
+padding: 10px;
+background: #4285f4;
+  font-family: MontserratMedium;
+border-radius: 20px;
+}
+
+ul, li {
+font-weight: 400;
+  font-family: MontserratMedium;
+color: #303030;
+line-height: 1.3;
+}
+
+a {
+  color: #303030;
+}
+
+a:link {
+  color: #303030;
+}
+
+a:visited {
+  color: #303030;
+}
+
+a:hover {
+  color: #DB4437;
+}
+
+a:active {
+  color: #F4B400;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+.i19 {
+position: center;
+font-size: 16px;
+text-align: center;
+background: #DB4437;
+border-radius: 10px;
+padding: 10px;
+font-weight: 500;
+}
+.i20 {
+font-weight: 300;
+color: #303030;
+  font-family: MontserratMedium;
+}
+.i21 {
+background: #F4B400;
+border-radius: 10px;
+position: center;
+font-size: 16px;
+font-weight: 500;
+padding: 10px;
+text-align: center;
+}
+.i22 {
+background: #4285F4;
+border-radius: 10px;
+position: center;
+font-size: 16px;
+font-weight: 500;
+padding: 10px;
+text-align: center;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99; 
+    border: none;
+    outline: none;
+    background-color: #212121;
+    color: #f6f6f6; 
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#myBtn:hover {
+    background-color: #F4B400;
+}

@@ -1,0 +1,164 @@
+/*This html file belong to webview app build by DROID_MJ. Any copyright of this file are not autorized unless you have a license from the developer.You can get one by contacting me in facebook [https://m.me/mrepol742]*/
+/*You agree to not decompile or change anything without license from the developer*/
+
+body {
+  background-color: #FFFFFF;
+  font-size: medium;
+  text-align: justify;
+  margin-left: auto; 
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+  margin-right: auto;
+  overflow: visible;
+}
+
+@font-face {
+  font-family: MontserratAlternatesMedium;
+  src: url("file:///android_asset/fonts/MontserratAlternatesMedium.ttf")
+}
+
+@font-face {
+  font-family: MontserratMedium;
+  src: url("file:///android_asset/fonts/MontserratMedium.ttf")
+}
+
+* {
+  font-family: MontserratMedium;
+}
+
+.d10 {
+  position: center;
+  text-align: center;
+  font-family: MontserratAlternatesMedium;
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.d9 {
+  position: center;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.d11 {
+  position: center;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.d12 {
+  outline:0;
+  margin-left:20px;
+  width:300px;
+  border-bottom-color: #3030300;
+  border-top-color:transparent;
+  border-left-color:transparent;
+  border-right-color:transparent;
+  font-size:17px;
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+.d13 {
+  position: absolute;
+  font-size: 17px;
+  border: 1px solid #4285F4;
+  border-radius: 7px;
+  outline: none;
+  background-color: #4285F4;
+  color: #FFFFFF;
+  width: 70px;
+  overflow: visible;
+  height: 30px;
+  font-family: MontserratAlternatesMedium;
+  bottom: 8px;
+  right: 16px;
+}
+
+.d14 {
+  outline:0;
+  margin-left:20px;
+  width:300px;
+  border-bottom-color: #3030300;
+  border-top-color:transparent;
+  border-left-color:transparent;
+  overflow: hidden;
+  border-right-color:transparent;
+  font-size:17px;
+  padding-top: 50px;
+}
+
+.d2 {
+  font-family: MontserratAlternatesMedium;
+  color: #4285F4;
+}
+
+.d3 {
+  font-family: MontserratAlternatesMedium;
+  color: #DB4437;
+}
+
+.d4 {
+  font-family: MontserratAlternatesMedium;
+  color: #F4B400;
+}
+
+.d5 {
+  font-family: MontserratAlternatesMedium;
+  color: #0F9D58;
+}
+
+.d6 {
+  font-family: MontserratAlternatesMedium;
+  color: #DB4437;
+}
+
+.d7 {
+  font-family: MontserratAlternatesMedium;
+  color: #4285F4;
+}
+
+.d8 {
+  font-family: MontserratAlternatesMedium;
+  color: #F4B400;
+}
+
+.d1 {
+  position: center;
+  padding-top: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+  color: #FFFFFF;
+}
+
+a:hover {
+  font-size: 17px;
+  border: 1px solid #FFFFFF;
+  border-radius: 7px;
+  outline: none;
+  background: #4285F4;
+  color: #4285F4;
+  width: 70px;
+  overflow: visible;
+  height: 30px;
+}
+
+a:active {
+  color: #4285F4;
+}
