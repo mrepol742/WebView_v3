@@ -1,0 +1,107 @@
+            ::selection {
+            background-color: transparent;
+            }
+            
+            ::-moz-selection {
+            background-color: transparent;
+            }
+            
+            * {
+            -webkit-user-select: none;
+            -moz-user-select: -moz-none;
+            -ms-user-select: none; 
+            -webkit-tap-highlight-color: transparent;
+            font-family: DROID_MJRegular;
+            user-select: none;
+            margin: 0px;
+            }
+            
+            @font-face {
+            font-family: DROID_MJAlternatesMedium;
+            src: url("file:///android_asset/a.ttf")
+            }
+            
+            @font-face {
+            font-family: DROID_MJRegular;
+            src: url("file:///android_asset/b.ttf")
+            }
+            
+            @font-face {
+            font-family: DROID_MJMedium;
+            src: url("file:///android_asset/c.ttf")
+            }
+            
+            html, body {
+            background-color: #37474F;
+            }
+            
+            .a {
+            background-color: #ffffff;
+            margin-top: 5%;
+            padding: 15px;
+            border-radius: 70px;
+            }
+            
+            .b {
+            margin-top: 5%;
+            font-style: normal;
+            font-family: DROID_MJRegular;
+            color: #bdbdbd;
+            font-size: 25px;
+            background-color: transparent;
+            }
+            
+            .c {
+            position: absolute;
+            background-color: #ffffff;
+            border-color: #ffffff;
+            outline: none;
+            right: 5%;
+            height: 50px;
+            width: 50px;
+            margin-top: 19%;
+            border-style: solid;
+            border-radius: 30px;
+            }
+            
+            .d {
+            position: absolute;
+            height: 35px;
+            border-radius: 20px;
+            border-style: solid;
+            border-color: #eeeeee;
+            background-color: transparent;
+            border-width: 1.5px;
+            margin-top: 20%;
+            left: 5%;
+            width: 69%;
+            outline: none;
+            color: #ffffff;
+            padding-left: 3%;
+            }
+            
+            .e {
+            position: absolute;
+            left: 5%;
+            width: 80%;
+            margin-top: 45%;
+            }
+            
+            a {
+            text-decoration: none;
+            color: #bdbdbd;
+            background-color: #263238;
+            padding: 2%;
+            border-radius: 5px;
+            }
+            
+            details {
+            margin-top: 80%;
+            color: #ffffff;
+            outline: none;
+            background-color: transparent;
+            }
+            
+            img {
+            height: 35px;
+            }

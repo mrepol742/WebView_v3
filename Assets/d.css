@@ -1,0 +1,1225 @@
+            ::selection {
+            background-color: transparent;
+            }
+            
+            ::-moz-selection {
+            background-color: transparent;
+            }
+            
+            * {
+            -webkit-user-select: none;
+            -moz-user-select: -moz-none;
+            -ms-user-select: none; 
+            -webkit-tap-highlight-color: transparent;
+            font-family: DROID_MJRegular;
+            user-select: none;
+            margin: 0px;
+            }
+            
+            @font-face {
+            font-family: DROID_MJAlternatesMedium;
+            src: url("file:///android_asset/a.ttf")
+            }
+            
+            @font-face {
+            font-family: DROID_MJRegular;
+            src: url("file:///android_asset/b.ttf")
+            }
+            
+            @font-face {
+            font-family: DROID_MJMedium;
+            src: url("file:///android_asset/c.ttf")
+            }
+            
+            .a {
+            position: absolute;
+            left: 10%;
+            margin-top: 15%;
+            font-weight: 500;
+            font-size: 28px;
+            font-family: DROID_MJMEDIUM;
+            color: #212121;
+            font-style: normal;
+            }
+            
+            .b {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 50%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .c {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 93%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .d {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #4285f4;
+            color: transparent;
+            margin-top: 145%;
+            border-radius: 2px;
+            }
+            
+            .e {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #4285f4;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 160%;
+            }
+            
+            .f {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #484848;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 18px;
+            line-break: 28px;
+            margin-top: 180%;
+            }
+            
+            .g {
+            position: absolute;
+            left: 8%;
+            width: 5px;
+            height: 50px;
+            background-color: #4285f4;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 181%;
+            }
+            
+            .h {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #ea4335;
+            color: transparent;
+            margin-top: 305%;
+            border-radius: 2px;
+            }
+            
+            .i {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #ea4335;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 318%;
+            }
+            
+            .j {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #484848;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 18px;
+            line-break: 28px;
+            margin-top: 330%;
+            }
+            
+            .k {
+            position: absolute;
+            margin-left: 5%;
+            margin-right: 10%;
+            color: #484848;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 18px;
+            line-break: 28px;
+            margin-top: 355%;
+            }
+            
+            .l {
+            color: #ea4335;
+            background-color: transparent;
+            }
+            
+            .m {
+            position: absolute;
+            left: 8%;
+            width: 5px;
+            height: 50px;
+            background-color: #ea4335;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 331%;
+            }
+            
+            .n {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #fbbc05;
+            color: transparent;
+            margin-top: 585%;
+            border-radius: 2px;
+            }
+            
+            .o {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #fbbc05;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 599%;
+            }
+            
+            .p {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #484848;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 18px;
+            line-break: 28px;
+            margin-top: 619%;
+            }
+            
+            .q {
+            position: absolute;
+            left: 8%;
+            width: 5px;
+            height: 50px;
+            background-color: #fbbc05;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 620%;
+            }
+            
+            .r {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #34a853;
+            color: transparent;
+            margin-top: 739%;
+            border-radius: 2px;
+            }
+            
+            .s {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #34a853;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 752%;
+            }
+            
+            .t {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #484848;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 18px;
+            line-break: 28px;
+            margin-top: 765%;
+            }
+            
+            .u {
+            position: absolute;
+            left: 8%;
+            width: 5px;
+            height: 50px;
+            background-color: #34a853;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 766%;
+            }
+            
+            .v {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #E91E63;
+            color: transparent;
+            margin-top: 968%;
+            border-radius: 2px;
+            }
+            
+            .w {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #E91E63;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 981%;
+            }
+            
+            .x {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #484848;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 18px;
+            line-break: 28px;
+            margin-top: 995%;
+            }
+            
+            .y {
+            position: absolute;
+            left: 8%;
+            width: 5px;
+            height: 50px;
+            background-color: #E91E63;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 996%;
+            }
+            
+            .z {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #607D8B;
+            color: transparent;
+            margin-top: 1077%;
+            border-radius: 2px;
+            }
+            
+            .a1 {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #607D8B;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 1090%;
+            }
+            
+            .a2 {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #484848;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 18px;
+            line-break: 28px;
+            margin-top: 1104%;
+            }
+            
+            .a3 {
+            position: absolute;
+            left: 8%;
+            width: 5px;
+            height: 50px;
+            background-color: #607D8B;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 1105%;
+            }
+            
+            .a4 {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #FF5722;
+            color: transparent;
+            margin-top: 1223%;
+            border-radius: 2px;
+            }
+            
+            .a5 {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #FF5722;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 1238%;
+            }
+            
+            .a6 {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #484848;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 18px;
+            line-break: 28px;
+            margin-top: 1252%;
+            }
+            
+            .a7 {
+            position: absolute;
+            left: 8%;
+            width: 5px;
+            height: 50px;
+            background-color: #FF5722;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 1253%;
+            }
+            
+            .a8 {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #009688;
+            color: transparent;
+            margin-top: 1378%;
+            border-radius: 2px;
+            }
+            
+            .a9 {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #009688;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 1392%;
+            }
+            
+            .a10 {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #484848;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 18px;
+            line-break: 28px;
+            margin-top: 1413%;
+            }
+            
+            .a11 {
+            position: absolute;
+            left: 8%;
+            width: 5px;
+            height: 50px;
+            background-color: #009688;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 1414%;
+            }
+            
+            .a12 {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #00BCD4;
+            color: transparent;
+            margin-top: 1481%;
+            border-radius: 2px;
+            }
+            
+            .a13 {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #00BCD4;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 1495%;
+            }
+            
+            .a14 {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #484848;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 18px;
+            line-break: 28px;
+            margin-top: 1516%;
+            }
+            
+            .a15 {
+            position: absolute;
+            left: 8%;
+            width: 5px;
+            height: 50px;
+            background-color: #00BCD4;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 1517%;
+            }
+            
+            .a16 {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #245A64;
+            color: transparent;
+            margin-top: 1574%;
+            border-radius: 2px;
+            }
+            
+            .a17 {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #245A64;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 1587%;
+            }
+            
+            .a18 {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #484848;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 18px;
+            line-break: 28px;
+            margin-top: 1599%;
+            }
+            
+            .a19 {
+            position: absolute;
+            left: 8%;
+            width: 5px;
+            height: 20px;
+            background-color: #245A64;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 1600%;
+            }
+            
+            .a20 {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #484848;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 18px;
+            line-break: 28px;
+            margin-top: 1630%;
+            margin-bottom: 20%;
+            }
+
+            .b1 {
+            position: absolute;
+            left: 10%;
+            margin-top: 15%;
+            font-weight: 500;
+            font-size: 28px;
+            font-family: DROID_MJMEDIUM;
+            color: #212121;
+            font-style: normal;
+            }
+            
+            .b2 {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 50%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .b3 {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 78%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .b4 {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 125%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .b5 {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #4285f4;
+            color: transparent;
+            margin-top: 202%;
+            border-radius: 2px;
+            }
+            
+            .b6 {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #4285f4;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 216%;
+            }
+            
+            .b7 {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #484848;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 18px;
+            line-break: 28px;
+            margin-top: 238%;
+            }
+            
+            .b8 {
+            position: absolute;
+            left: 8%;
+            width: 5px;
+            height: 35px;
+            background-color: #4285f4;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 239%;
+            }
+            
+            .b9 {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #ea4335;
+            color: transparent;
+            margin-top: 270%;
+            border-radius: 2px;
+            }
+            
+            .b10 {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #ea4335;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 285%;
+            }
+            
+            .b11 {
+            position: absolute;
+            left: 16%;
+            font-family: DROID_MJMedium;
+            color: #ea4335;
+            background-color: transparent;
+            font-size: 23px;
+            font-style: normal;
+            margin-top: 300%;
+            }
+            
+            .b12 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 310%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .b13 {
+            position: absolute;
+            margin-left: 16%;
+            color: #484848;
+            font-size: 19px;
+            margin-top: 365%;
+            }
+            
+            .b14 {
+            position: absolute;
+            left: 16%;
+            font-family: DROID_MJMedium;
+            color: #ea4335;
+            background-color: transparent;
+            font-size: 23px;
+            font-style: normal;
+            margin-top: 395%;
+            }
+            
+            .b15 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 405%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .b16 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #ea4335;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 311%;
+            }
+            
+            .b17 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #ea4335;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 406%;
+            }
+            
+            .b18 {
+            position: absolute;
+            left: 16%;
+            font-family: DROID_MJMedium;
+            color: #ea4335;
+            background-color: transparent;
+            font-size: 23px;
+            font-style: normal;
+            margin-top: 503%;
+            }
+            
+            .b19 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 513%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .b20 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #ea4335;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 514%;
+            }
+            
+            .c1 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 545%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .c2 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #ea4335;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 546%;
+            }
+            
+            .c3 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 623%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .c4 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #ea4335;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 624%;
+            }
+            
+            .c5 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 680%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .c6 {
+            color: #ea4335;
+            background-color: transparent;
+            }
+            
+            .c7 {
+            color: #484848;
+            background-color: transparent;
+            }
+            
+            .c8 {
+            position: absolute;
+            left: 14%;
+            right: 10%;
+            font-size: 20px;
+            margin-top: 690%;
+            }
+            
+            .c9 {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #fbbc05;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 778%;
+            }
+            
+            .c10 {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #fbbc05;
+            color: transparent;
+            margin-top: 765%;
+            border-radius: 2px;
+            }
+            
+            .c11 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 790%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .c12 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 25px;
+            background-color: #fbbc05;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 791%;
+            }
+            
+            .c13 {
+            position: absolute;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #484848;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 18px;
+            line-break: 28px;
+            margin-top: 810%;
+            }
+            
+            .c14 {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #34a853;
+            color: transparent;
+            margin-top: 910%;
+            border-radius: 2px;
+            }
+            
+            .c15 {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #34a853;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 925%;
+            }
+            
+            .c16 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 940%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .c17 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #34a853;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 941%;
+            }
+            
+            .c18 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #34a853;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 993%;
+            }
+            
+            .c19 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #34a853;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 1032%;
+            }
+            
+            .c20 {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #E91E63;
+            color: transparent;
+            margin-top: 1120%;
+            border-radius: 2px;
+            }
+            
+            .d1 {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #E91E63;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 1133%;
+            }
+            
+            .d2 {
+            position: absolute;
+            left: 16%;
+            font-family: DROID_MJMedium;
+            color: #E91E63;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 1145%;
+            }
+            
+            .d3 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 1160%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .d4 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 1190%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .d5 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #E91E63;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 1161%;
+            }
+            
+            .d6 {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #607D8B;
+            color: transparent;
+            margin-top: 1292%;
+            border-radius: 2px;
+            }
+            
+            .d7 {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #607D8B;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 1305%;
+            }
+            
+            .d8 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 1322%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .d9 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #607D8B;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 1323%;
+            }
+            
+            .d10 {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #FF5722;
+            color: transparent;
+            margin-top: 1398%;
+            border-radius: 2px;
+            }
+            
+            .d11 {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #FF5722;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 1411%;
+            }
+            
+            .d12 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 1428%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .d13 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #FF5722;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 1429%;
+            }
+            
+            .d14 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #FF5722;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 1494%;
+            }
+            
+            .d15 {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #009688;
+            color: transparent;
+            margin-top: 1542%;
+            border-radius: 2px;
+            }
+            
+            .d16 {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #009688;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 1558%;
+            }
+            
+            .d17 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 1581%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .d18 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #009688;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 1582%;
+            }
+            
+            .d19 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #009688;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 1621%;
+            }
+            
+            .d20 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 50px;
+            background-color: #009688;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 1667%;
+            }
+            
+            .e1 {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            height: 30px;
+            background-color: #00BCD4;
+            color: transparent;
+            margin-top: 1717%;
+            border-radius: 2px;
+            }
+            
+            .e2 {
+            position: absolute;
+            left: 10%;
+            font-family: DROID_MJMedium;
+            color: #00BCD4;
+            background-color: transparent;
+            font-size: 25px;
+            font-style: normal;
+            margin-top: 1730%;
+            }
+            
+            .e3 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 1745%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            }
+            
+            .e4 {
+            position: absolute;
+            margin-left: 16%;
+            margin-right: 10%;
+            margin-top: 1780%;
+            line-height: 28px;
+            color: #484848;
+            font-size: 20px;
+            margin-bottom: 20%;
+            }
+            
+            .e5 {
+            position: absolute;
+            left: 14%;
+            width: 5px;
+            height: 35px;
+            background-color: #00BCD4;
+            border-radius: 2px;
+            color: transparent;
+            margin-top: 1746%;
+            }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+        <head>
+            <title>You've Gone Incognito</title>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,target-densitydpi=device-dpi, user-scalable=no">
+            <link rel="stylesheet" href="file:///android_asset/g.css" />
+        </head>
+    <body>
+        <center>
+            <svg class="a" fill="#484848" opacity="1.0" baseProfile="full" width="72" height="72" viewBox="0 0 24.00 24.00">
+                <path d="M12 3c-2.692.003-4.594 1.219-4.594 1.219L6 9h12l-1.406-4.781S14.692 3.002 12 3zm0 8c-2.728 0-6.612.536-6.875.594a25.523 25.523 0 0 0-2.531.812A25.457 25.457 0 0 0 1 13h22s-.576-.246-1.594-.594a25.791 25.791 0 0 0-2.562-.812S14.824 11 12 11zm-4.5 3a3.5 3.5 0 1 0 3.469 3.031c.319-.07.664-.126 1.031-.125.367.002.712.055 1.031.125A3.5 3.5 0 1 0 16.5 14a3.488 3.488 0 0 0-3.25 2.188A4.071 4.071 0 0 0 12 16c-.55 0-.931.091-1.25.188A3.488 3.488 0 0 0 7.5 14zm0 1a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zm9 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"/>
+            </svg>
+        </center>
+        <center>
+            <dt class="b">You've Gone Incognito</dt>
+        </center>
+        <div>
+            <form id="a" autocomplete="off" spellcheck="false">
+                <input class="d" id="b" type="text" required="required" value="" placeholder="Search...">
+                <button class="c" type="submit" name="submition" value="submit">
+                    <img src="i.ttf">
+                </button>
+            </form>
+        </div>
+        <script type="text/javascript">
+        document.getElementById('a').onsubmit = function() { window.location = 'http://' + document.getElementById('b').value; return false; 
+        }
+        </script>
+        <div class="e">
+            <a href="http://google.com">Google</a>
+            <a href="http://Facebook.com">Facebook</a>
+            <a href="http://twitter.com">Twitter</a>
+            <br>
+                <br>
+            <a href="http://youtube.com">YouTube</a>
+            <a href="http://freebasics.com">Freebasics</a>
+            <a href="http://yahoo.com">Yahoo!</a>
+        </div>
+        <center>
+            <details>
+                <br>
+                    <br>
+                        While you in Incognito, other people who used this device won't see your history and activity, you can browse privately. However the bookmarks and you download are saved.<br>WebView won't saved your history, cookie , data and information entered in forms. But you may be still visible. 
+                    <br>
+                <br>
+            </details>
+        </center>
+        <noscript>This page cannot run if there's no JavaScript</noscript>
+    </body>
+</html>
